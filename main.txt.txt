@@ -1,0 +1,59 @@
+while True:
+    print("1. Continuar")
+    print("2. Sair")
+
+    nome=str(input("Nome do paciente: "))
+    (input("Dia do nascimento: "))
+    (input("Mês do nascimento: "))
+    ano=float(input("Ano do nascimento: "))
+    grau=int
+
+    if ano>=2011:
+        print("Encaminhado a Pediatria")
+        (input("Nome do responsável: "))
+        (input("RG do responsável: "))
+        (input("Data de nascimento do responsável: "))
+    
+    elif 2011<ano>=2006:
+        print("Encaminhado a Clínica Geral")
+        (input("Nome do responsável: "))
+        (input("RG do responsável: "))
+        (input("Data de nascimento do responsável: "))
+    
+    elif ano<2006:
+        print("Encaminhado a Clínica Geral")
+    
+    problema=str(input("Qual sua urgência: "))
+
+    if problema=="dor" or problema=="febre":
+        grau=="Baixo"
+        print("Nome:", nome)
+        print("Idade:", 2024-ano)
+        print("Grau: Baixo")
+    
+    elif problema=="vomito":
+        grau=="Médio"
+        print("Nome:", nome)
+        print("Idade:", 2024-ano)
+        print("Grau: Médio")
+    
+    elif problema=="fratura" or problema=="ferimentos":
+        grau=="Alta"
+        print("Nome:", nome)
+        print("Idade:", 2024-ano)
+        print("Grau: Alta")
+
+    print("menu:")
+    print("1. Continuar")
+    print("2. Sair")
+
+    escolha = input("Escolha uma opção: ")
+
+    if escolha == "1":
+        print("Você escolheu Continuar")
+        
+    elif escolha == "2":
+        break
+
+    else:
+        print("Opção inválida")
