@@ -1,3 +1,7 @@
+To me sentindo Oruam
+batata
+
+
 while True:
     print("1. Continuar")
     print("2. Sair")
@@ -57,3 +61,11 @@ while True:
 
     else:
         print("Opção inválida")
+
+
+
+
+
+mim de papai
+
+batata
